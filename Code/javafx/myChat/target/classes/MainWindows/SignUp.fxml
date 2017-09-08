@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            fx:controller="MainWindows.SignUp.SignUpController" styleClass="background">
+
+    <BorderPane styleClass="background" onMouseDragged="#moveWin1" onMousePressed="#moveWin0">
+        <top>
+            <VBox alignment="CENTER">
+                <Label text="Make New Account" style="-fx-font-size: 31.4px" styleClass="label"/>
+            </VBox>
+        </top>
+        <center>
+            <VBox alignment="CENTER">
+
+                <HBox alignment="CENTER" spacing="100">
+                    <Label text="${'E-Mail\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                    <TextField fx:id="mailText" prefWidth="400" promptText="Enter your new E-mail" styleClass="text-field"/>
+                </HBox>
+                <HBox alignment="CENTER" spacing="100">
+                    <Label text="${'Password\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                    <PasswordField fx:id="passText" prefWidth="400" promptText="Enter your new password" styleClass="password-field"/>
+                </HBox>
+                <HBox alignment="CENTER" spacing="100">
+                    <Label text="${'Name\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                    <TextField fx:id="nameText" prefWidth="400" promptText="Enter your new name" styleClass="text-field"/>
+                </HBox>
+                <HBox alignment="CENTER" spacing="100">
+                    <Label text="${'Age\t\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                    <TextField fx:id="ageText" prefWidth="400" promptText="Enter your new age number" styleClass="text-field"/>
+                </HBox>
+                <HBox alignment="CENTER" spacing="100">
+                    <Label text="${'Mobile #\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                    <TextField fx:id="mobileText" prefWidth="400" promptText="Enter your new mobile number" styleClass="text-field"/>
+                </HBox>
+                <HBox alignment="CENTER" spacing="100">
+                    <Label text="${'photoText\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                    <Button text="Browse" onMousePressed="#browseForImage"/>
+                    <TextField fx:id="browseText" prefWidth="205" editable="false" styleClass="text-field"/>
+                </HBox>
+
+            </VBox>
+        </center>
+
+        <right>
+            <StackPane styleClass="background" prefWidth="1" prefHeight="1">
+                <VBox alignment="CENTER">
+                    <ImageView fx:id="uploadImageView" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true"
+                               preserveRatio="true"/>
+                </VBox>
+
+            </StackPane>
+
+        </right>
+
+        <bottom>
+
+                <HBox spacing="10" alignment="BOTTOM_RIGHT">
+                    <Button text="Register" styleClass="buttonRigh" onMouseClicked="#submit"/>
+                    <Button text="Back" styleClass="buttonDang" onMouseClicked="#backToSignIn"/>
+                </HBox>
+
+        </bottom>
+    </BorderPane>
+
+
+</AnchorPane>

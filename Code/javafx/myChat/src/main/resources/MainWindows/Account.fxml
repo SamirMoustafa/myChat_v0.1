@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="background" xmlns="http://javafx.com/javafx/8.0.112"
+            fx:controller="MainWindows.Account.AccountController">
+
+    <TabPane tabClosingPolicy="UNAVAILABLE" styleClass="tab-header-area" onMouseDragged="#moveWin1" onMousePressed="#moveWin0" prefWidth="1000" prefHeight="618">
+
+        <tabs>
+            <Tab fx:id="userAcc" text="Account">
+                <BorderPane styleClass="background">
+
+                    <top>
+                        <VBox alignment="CENTER">
+                            <Label fx:id="wellcomeLabel" style="-fx-font-size: 40px;" text="Hello "/>
+                        </VBox>
+                    </top>
+
+                    <center>
+                        <ImageView fx:id="mainAccountImageView" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true"/>
+                    </center>
+
+                    <bottom>
+                        <VBox alignment="BOTTOM_RIGHT" styleClass="box">
+                            <Button text="Logout" styleClass="buttonDang" onMouseClicked="#logout"/>
+                        </VBox>
+                    </bottom>
+
+                </BorderPane>
+            </Tab>
+
+            <Tab fx:id="userSetting" text="Setting">
+
+                <BorderPane styleClass="background">
+
+                    <top>
+                        <VBox alignment="CENTER">
+                            <Label text="General Account Settings" style="-fx-font-size: 31.4px" styleClass="label"/>
+                        </VBox>
+                    </top>
+
+                    <center>
+                        <VBox alignment="CENTER">
+
+                            <HBox alignment="CENTER" spacing="100">
+                                <Label text="${'E-Mail\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                                <TextField editable="false" fx:id="mailText" prefWidth="400" promptText="Enter your new E-mail" styleClass="text-field"/>
+                            </HBox>
+                            <HBox alignment="CENTER" spacing="100">
+                                <Label text="${'Password\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                                <PasswordField fx:id="passText" prefWidth="400" promptText="Enter your new password" styleClass="password-field"/>
+                            </HBox>
+                            <HBox alignment="CENTER" spacing="100">
+                                <Label text="${'Name\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                                <TextField editable="false" fx:id="nameText" prefWidth="400" promptText="Enter your new name" styleClass="text-field"/>
+                            </HBox>
+                            <HBox alignment="CENTER" spacing="100">
+                                <Label text="${'Age\t\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                                <TextField fx:id="ageText" prefWidth="400" promptText="Enter your new age number" styleClass="text-field"/>
+                            </HBox>
+                            <HBox alignment="CENTER" spacing="100">
+                                <Label text="${'Mobile #\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                                <TextField fx:id="mobileText" prefWidth="400" promptText="Enter your new mobile number" styleClass="text-field"/>
+                            </HBox>
+                            <HBox alignment="CENTER" spacing="100">
+                                <Label text="${'photoText\t'}" style="-fx-font-size: 16.18px" styleClass="label"/>
+                                <Button text="Browse" onMousePressed="#browseForImage"/>
+                                <TextField fx:id="browseText" prefWidth="205" editable="false" styleClass="text-field"/>
+                            </HBox>
+
+                        </VBox>
+                    </center>
+
+                    <right>
+                            <VBox alignment="CENTER">
+                                <ImageView fx:id="updateAccountImageView" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true"/>
+                            </VBox>
+                    </right>
+
+                    <bottom>
+                        <HBox spacing="10" alignment="BOTTOM_RIGHT">
+                            <Button text="Save" onMouseClicked="#saveAccountChanges"/>
+                            <Button text="Restore" onMouseClicked="#setToDefault"/>
+                        </HBox>
+                    </bottom>
+
+                </BorderPane>
+
+            </Tab>
+
+            <Tab fx:id="userChat" text="Chat">
+                <BorderPane styleClass="background">
+
+                    <left>
+                        <VBox spacing="6.28" prefWidth="382" prefHeight="300">
+
+                            <HBox spacing="5">
+                                <TextField fx:id="searchTxt" promptText="search for new account to chat" style="-fx-font-size: 2em" prefWidth="285"/>
+                                <Button text="search" onMouseClicked="#searchForAccounts"/>
+                            </HBox>
+                            <ListView prefHeight="600">
+
+                                <VBox fx:id="accountsVBox" alignment="CENTER" spacing="31.4"/>
+
+                            </ListView>
+                        </VBox>
+                    </left>
+
+                    <right>
+                        <VBox prefWidth="550" spacing="10">
+
+                            <Label fx:id="conversationHeaderLabel" styleClass="label" style="-fx-font-size: 2em"/>
+                            <Button text="refresh" onMouseClicked="#viewMessagesForAccount"/>
+                            <ListView fx:id="messagesList"/>
+
+                            <HBox spacing="5">
+                                <TextField fx:id="sendMsgText" promptText="Type a message" style="-fx-font-size: 2em" prefWidth="480"/>
+                                <Button styleClass="button" onMouseClicked="#sendMessage">
+                                    <graphic>
+                                        <ImageView fx:id="sendImageView"/>
+                                    </graphic>
+                                </Button>
+                            </HBox>
+
+                        </VBox>
+                    </right>
+
+                </BorderPane>
+            </Tab>
+
+        </tabs>
+
+    </TabPane>
+
+</AnchorPane>

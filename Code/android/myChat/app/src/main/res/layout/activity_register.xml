@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1d1d1d"
+    android:fillViewport="true"
+    tools:context="com.example.abdelrahmanhesham.mychat.RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="90dp"
+                    android:id="@+id/profile_photo"
+                    android:layout_gravity="center"
+                    android:src="@drawable/no_avatar"
+                    android:layout_height="90dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ti_name"
+                android:layout_width="match_parent"
+                app:errorTextAppearance="@style/error_appearance"
+                android:textColorHint="@android:color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:backgroundTint="@color/main"
+                    android:drawableTint="@color/main"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_person"
+                    android:hint="Name"
+                    android:inputType="text" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ti_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/error_appearance"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="24dp">
+
+                <EditText
+                    android:id="@+id/et_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/main"
+                    android:drawableRight="@drawable/ic_person"
+                    android:drawableTint="@color/main"
+                    android:hint="Age"
+                    android:inputType="number"
+                    android:textColor="@android:color/white" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ti_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/error_appearance"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="24dp">
+
+                <EditText
+                    android:id="@+id/et_mobile"
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/main"
+                    android:drawableTint="@color/main"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_phone_black_24dp"
+                    android:hint="Mobile Number"
+                    android:inputType="phone" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ti_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/error_appearance"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="24dp">
+
+                <EditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/main"
+                    android:drawableTint="@color/main"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_email"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ti_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/error_appearance"
+                android:textColorHint="@android:color/white"
+                android:layout_marginTop="24dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/main">
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/main"
+                    android:textColor="@android:color/white"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textColor="@android:color/white"
+                android:drawableRight="@drawable/ic_arrow_forward"
+                android:textAlignment="center"
+                android:text="Register" />
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_register"
+                android:padding="24dp"
+                android:text="Already Registered ? Login Now !"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

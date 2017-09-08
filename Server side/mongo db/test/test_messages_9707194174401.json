@@ -1,0 +1,8 @@
+{ "_id" : { "$oid" : "5922cfb39dedcda42100003a" }, "sender" : "abdelrahman@gmail.com", "receiver" : "samir@gmail.com", "senderName" : "Abdelrahman Hesham", "receiverName" : "Samir Moustafa", "text" : "Ho" }
+{ "_id" : { "$oid" : "5922cfb59dedcda42100003b" }, "sender" : "abdelrahman@gmail.com", "receiver" : "samir@gmail.com", "senderName" : "Abdelrahman Hesham", "receiverName" : "Samir Moustafa", "text" : "Hi" }
+{ "_id" : { "$oid" : "5922cfd39dedcda42100003c" }, "sender" : "samir@gmail.com", "receiver" : "abdelrahman@gmail.com", "senderName" : "Samir Moustafa", "receiverName" : "Abdelrahman Hesham", "text" : "😂😂😂" }
+{ "_id" : { "$oid" : "5922cff79dedcda42100003d" }, "sender" : "samir@gmail.com", "receiver" : "abdelrahman@gmail.com", "senderName" : "Samir Moustafa", "receiverName" : "Abdelrahman Hesham", "text" : "Abdoo" }
+{ "_id" : { "$oid" : "5922d41f9dedcda42100003e" }, "sender" : "abdelrahman@gmail.com", "receiver" : "samir@gmail.com", "senderName" : "Abdelrahman Hesham", "receiverName" : "Samir Moustafa", "text" : "Hi" }
+{ "_id" : { "$oid" : "5922d545334aa4438497f11c" }, "sender" : "ashrafaf73@yahoo.com", "receiver" : "abdelrahman@gmail.com", "senderName" : "Dr. Ashraf Said Ahmed", "receiverName" : "Abdelrahman Hesham", "text" : "Hi" }
+{ "_id" : { "$oid" : "5922d5539dedcd1409000040" }, "sender" : "abdelrahman@gmail.com", "receiver" : "ashrafaf73@yahoo.com", "senderName" : "Abdelrahman Hesham", "receiverName" : "Dr. Ashraf Said Ahmed", "text" : "hi" }
+{ "_id" : { "$oid" : "5922d56c9dedcd1409000041" }, "sender" : "abdelrahman@gmail.com", "receiver" : "ashrafaf73@yahoo.com", "senderName" : "Abdelrahman Hesham", "receiverName" : "Dr. Ashraf Said Ahmed", "text" : "😂😂😂😂" }

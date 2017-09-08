@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx"
+            fx:controller="MessageBox.MessageBoxController"
+            styleClass="background" onMouseDragged="#moveWin1" onMousePressed="#moveWin0">
+
+    <BorderPane styleClass="background" prefWidth="500" prefHeight="210" style="-fx-background-color: #3a3a3a">
+        <top>
+            <HBox alignment="CENTER">
+                <Label fx:id="msgBoxHeader" style="-fx-font-size: 4em; -fx-text-fill: #6dcdff"/>
+            </HBox>
+        </top>
+
+        <center>
+            <HBox alignment="CENTER">
+                <Label fx:id="msgBoxContent" style="-fx-font-size: 2em"/>
+            </HBox>
+        </center>
+
+        <bottom>
+            <HBox alignment="CENTER">
+                <Button text="Ok" onMouseClicked="#close"/>
+            </HBox>
+
+        </bottom>
+
+    </BorderPane>
+
+</AnchorPane>

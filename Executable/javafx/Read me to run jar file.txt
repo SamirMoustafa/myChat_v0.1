@@ -1,0 +1,3 @@
+open CMD
+use -> cd command line to move to dir that have the myChat.jar
+then paste this in cmd ->  java -cp myChat.jar Main 

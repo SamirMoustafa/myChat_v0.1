@@ -1,0 +1,3 @@
+php content are put in server side where url can be 
+htttp//:localhost/myChat/.........php
+if the server changed from localhost the executable will not work and must change each local host in code to the new server DNS

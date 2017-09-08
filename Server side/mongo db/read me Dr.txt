@@ -1,0 +1,2 @@
+This is an export for the data base collections of our test data collection (accounts,message,profile images)
+Exports are in  a shape of JSON files

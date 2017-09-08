@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx"
+            fx:controller="MainWindows.SignIn.SignInController"
+            fx:id="root" styleClass="background"
+            onMouseDragged="#moveWin1" onMousePressed="#moveWin0">
+
+    <top>
+
+        <VBox spacing="10">
+            <HBox alignment="CENTER">
+                <Label text="myChat" style="-fx-font-size: 10em" styleClass="label"/>
+            </HBox>
+            <ImageView fx:id="mainLogo" fitHeight="300" fitWidth="600"/>
+        </VBox>
+
+    </top>
+
+    <center>
+
+        <VBox spacing="3.14" alignment="CENTER">
+            <VBox alignment="TOP_LEFT" spacing="3.14">
+                <Label text="E-mail" style="-fx-font-size: 16.18px;-fx-text-fill: white;" styleClass="label"/>
+                <TextField fx:id="emailText" promptText="Enter your E-mail" styleClass="text-field"/>
+            </VBox>
+            <VBox alignment="TOP_LEFT" spacing="3.14">
+                <Label text="Password" style="-fx-font-size: 16.18px;-fx-text-fill: white;" styleClass="label"/>
+                <PasswordField fx:id="passText" promptText="Enter your password" styleClass="password-field"/>
+            </VBox>
+        </VBox>
+
+    </center>
+
+    <bottom>
+
+        <VBox spacing="16.18" alignment="CENTER">
+            <padding>
+                <Insets top="31.4"/>
+            </padding>
+            <Button styleClass="specialButton" onMouseClicked="#login" prefWidth="500">
+                <graphic>
+                    <ImageView fx:id="btnImage1"/>
+                </graphic>
+            </Button>
+            <Label style="-fx-font-size: 2em;-fx-text-fill:white; " text="Not Registered ? Register Now !" onMouseClicked="#signup"/>
+            <Label style="-fx-font-size: 2em;-fx-text-fill:white; " text="Exit" onMouseClicked="#close"/>
+        </VBox>
+
+    </bottom>
+
+</BorderPane>
