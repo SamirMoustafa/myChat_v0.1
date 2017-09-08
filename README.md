@@ -18,6 +18,6 @@ Some screens for android apk
 Some screens for Pc application
 <br/>
 <img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Pc%231.png?raw=true" height="350"/>
-<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Pc%232.png?raw=true" height="250"/>
+<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Pc%232.png?raw=true" height="300"/>
 <img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Pc%233.png?raw=true" height="250"/>
 <img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Pc%234.png?raw=true" height="250"/>
