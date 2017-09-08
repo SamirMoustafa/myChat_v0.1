@@ -5,11 +5,13 @@ Any change in server-side will required to change this in source code and the ex
 there is a readme text file behind each folder to make sure that the server-side works good as possible<br/>
 Some screens for android apk
 <br/>
-<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%231.png?raw=true" height="350"/>
-<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%232.png?raw=true" height="350"/>
-<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%233.png?raw=true" height="350"/>
-<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%234.png?raw=true" height="350"/>
+<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%231.png?raw=true" height="280"/>
+<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%232.png?raw=true" height="280"/>
+<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%233.png?raw=true" height="280"/>
+<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%234.png?raw=true" height="280"/>
+<img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%235.png?raw=true" height="280"/>
 <br/>
+<hr/>
 Some screens for Pc application
 <br/>
 <img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Pc%231.png?raw=true" height="350"/>
