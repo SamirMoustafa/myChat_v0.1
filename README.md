@@ -1,8 +1,13 @@
 # myChat-v0.1
-This Chat application to communicate between Java PC and Android (many to many)<br/>
-The server-side in executable files is a local host which use Wampserver and a Mongo Database that run on port 27017<br/>
-Any change in server-side will required to change this in source code and the executable file will not work fine<br/>
-there is a readme text file behind each folder to make sure that the server-side works good as possible<br/>
+This Chat application to communicate between Java PC and Android (many to many)
+<br/>
+The server-side in executable files is a local host which use Wampserver and a Mongo Database that run on port 27017
+<br/>
+Any change in server-side will required to change this in source code and the executable file will not work fine
+<br/>
+there is a readme text file behind each folder to make sure that the server-side works good as possible
+<br/>
+<hr/>
 Some screens for android apk
 <br/>
 <img src="https://github.com/SamirMoustafa/myChat-v0.1/blob/8f45af85a2b3505012db76d0c70e005466763bdf/Screens/Mob%231.png?raw=true" height="280"/>
