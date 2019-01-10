@@ -1,4 +1,4 @@
-# myChat-v0.1
+# myChat
 This Chat application to communicate between Java PC and Android (many to many)
 <br/>
 The server-side in executable files is a local host which use Wampserver and a Mongo Database that run on port 27017
